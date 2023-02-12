@@ -414,7 +414,6 @@
 		
 		}
 
-#endif
 
 // Part 12 - console calculator
 
@@ -462,9 +461,39 @@
 				result = num1 / num2;
 				std::cout << "result: " << result << '\n';
 				break;
+			default:
+				std::cout <<"That wasn't a valid operator. \n ";
+				break;
 		}
 
 		std::cout << "********************************************************";
+
+		     return 0;
+		
+		}
+
+#endif
+
+
+// Part 13 - Ternary operator
+		// A "tenary operator" ?: is a replacement to an if/else 
+		// statement condition ? expression1 : experssion2
+
+#include <iostream>
+
+
+	int main()
+	{
+		int grade = 75;
+
+		if (grade >= 60)
+		{
+			std::cout << "you pass!";
+		}
+
+		else{
+			std::cout << "you fail!";
+		}
 
 		     return 0;
 		
