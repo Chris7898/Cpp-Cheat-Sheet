@@ -437,33 +437,30 @@
 		std::cin >> op;
 		
 		std::cout << "Enter #1: ";
-		std::cin num1;
-
-		std::cout << "Enter either (+ - * /):";
-		std::cin >> op;
+		std::cin >> num1;
 		
 		std::cout << "Enter #2: ";
-		std::cin num2;
+		std::cin >> num2;
 
-		switch (){
-			case '+';
+		switch (op){
+			case '+':
 				result = num1 + num2;
-				std::cout << "result: "; << result << '\n';
+				std::cout << "result: " << result << '\n';
 				break;
 
-			case '+';
+			case '-':
 				result = num1 - num2;
-				std::cout << "result: "; << result << '\n';
+				std::cout << "result: " << result << '\n';
 				break;
 				
-			case '*';
+			case '*':
 				result = num1 * num2;
-				std::cout << "result: "; << result << '\n';
+				std::cout << "result: " << result << '\n';
 				break;
 
-			case '/';
+			case '/':
 				result = num1 / num2;
-				std::cout << "result: "; << result << '\n';
+				std::cout << "result: " << result << '\n';
 				break;
 		}
 
