@@ -472,8 +472,6 @@
 		
 		}
 
-#endif
-
 
 // Part 13 - Ternary operator
 		// A "tenary operator" ?: is a replacement to an if/else 
@@ -484,17 +482,47 @@
 
 	int main()
 	{
-		int grade = 75;
+		// int grade = 75;
 
-		if (grade >= 60)
-		{
-			std::cout << "you pass!";
-		}
+		//  grade >= 60 ? std::cout << "you pass!" : std::cout << "you fail!";
 
-		else{
-			std::cout << "you fail!";
-		}
+		// int number = 9;
+		// number % 2 == 1 ? std::cout << "ODD" : std::cout << "EVEN";
+
+
+// value can be true or false
+		bool hungry = true;
+
+		// hungry ? std::cout << "Your are hungry" : std::cout << "You are full" ;
+
+		std::cout << hungry ? "You are hungry" : "You are full";
 
 		     return 0;
 		
 		}
+
+#endif
+
+// Part 14 - Logical Operators
+// 		&& = check if two condition are true
+// 		|| = check if at least one of two conditions is true
+// 		!  = reverses the logical state of its operand
+
+#include <iostream>
+
+	int main()
+	{
+		int temp;
+
+		std::cout <<"Enter the temperature: ";
+		std::cin >> temp;
+
+		if(temp > 0 && temp < 30 )
+
+
+		     return 0;
+		
+		}
+
+
+
