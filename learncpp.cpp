@@ -11,7 +11,6 @@
 #include <iostream>
 #include <vector>
 
-#ifdef test
 // std::count = standard output
 // <<name; - "<<" displays something. 
 
@@ -501,7 +500,6 @@
 		
 		}
 
-#endif
 
 // Part 14 - Logical Operators
 // 		&& = check if two condition are true
