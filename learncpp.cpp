@@ -1,5 +1,5 @@
 	    /********************************************************************************
-	     *						 Made by DarkWolf 										*
+	     *						 Made by Chris 										    *
 	     *				    	 Started 2/11/23										*
 	     *				    	  Finished TBD											*
 	     *																				*					
@@ -33,7 +33,7 @@
 	// Ex: bool student = false;
 
 	// String = sequence of text
-	// Ex: std::string name = "DarkWolf";
+	// Ex: std::string name = "Chris";
 
 	// Const = a keyword that will modify a variable, or some value so that it is read only and cant be changed.
 	// Ex: 
@@ -115,7 +115,7 @@
 
 		int main(){
 				
-		     text_t firstName = "DarkWolf";
+		     text_t firstName = "Chris";
 		     number_t age = 14;
 		     
 		     std::cout << firstName << '\n';
