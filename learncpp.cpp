@@ -8,6 +8,7 @@
 	     *											                                    *									
 	     ********************************************************************************/
 
+// #ifdef notused
 #include <iostream>
 #include <vector>
 
@@ -203,11 +204,12 @@
 		     return 0;
 		
 		}
-
+// #endif
 
 // Part 7 - User input
 			// cout << (insertion operator)
 			// cin >> (extraction operator)
+#include <iostream>
 
 		int main(){
 		    
@@ -226,7 +228,7 @@
 		     return 0;
 		
 		}
-
+// #ifdef nrn
 #include <iostream>
 #include <cmath>
 
@@ -522,5 +524,7 @@
 		
 		}
 
+// #endif
 
 
+// Part 15 -
