@@ -1,7 +1,7 @@
 	    /********************************************************************************
 	     *						 Made by Chris 										    *
 	     *				    	 Started 2/11/23										*
-	     *				    	  Finished TBD											*
+	     *				    	 Finished 1/17/23										*
 	     *																				*					
 	     *																				*
 	     *			Made so people newer to c++ can learn easier			            *  
